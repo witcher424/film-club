@@ -10,6 +10,8 @@
 
 Все данные должны храниться в СУБД postgresql, схема базы данных предсталена ниже.
 
+![er-diagram](https://raw.githubusercontent.com/witcher424/film-club/master/er-diagram.svg)
+
 ### 2.2 Данные о пользователях
 
 1. Логин (должен быть длиннее 3 символов).
