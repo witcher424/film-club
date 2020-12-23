@@ -7,7 +7,7 @@
 | Учебная группа | Github аккаунт участника                        | ФИО                      |
 |----------------|-------------------------------------------------|--------------------------|
 | 181-342        | [witcher424](https://github.com/witcher424)     | Савлук Д.С.              |
-| 181-342        | [cyberfined](https://github.com/cyberfined)     | Демин В.А.               |
+| 181-342        | [cyberfined](https://github.com/cyberfined)     | Дёмин В.А.               |
 | 181-342        | [sadpeopledie](https://github.com/sadpeopledie) | Дубинина В.А.            |
 
 ## Техническое задание
