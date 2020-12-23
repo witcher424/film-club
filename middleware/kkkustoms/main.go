@@ -55,6 +55,7 @@ func main() {
     router.HandleFunc("/genders", gendersHandler)
     router.HandleFunc("/occupations", occupationsHandler)
     router.HandleFunc("/genres", genresHandler)
+    router.HandleFunc("/register", registerHandler)
     router.HandleFunc("/change_password", authHandler(changePasswordHandler))
     router.HandleFunc("/delete_account", authHandler(deleteAccountHandler))
     router.HandleFunc("/user_id", userIdHandler)
