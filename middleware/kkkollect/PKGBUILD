@@ -1,0 +1,26 @@
+pkgname=kkkollect
+pkgver=0.1.0
+pkgrel=1
+pkgdesc="app for calculating average rating for films"
+license=('GPL')
+arch=('i686' 'pentium4' 'x86_64' 'arm' 'armv7h' 'armv6h' 'aarch64')
+makedepends=('go')
+options=('strip')
+
+prepare() {
+    cp "$startdir/main.go" "$srcdir"
+}
+
+build() {
+    go build -o "$pkgname"
+}
+
+package() {
+    destdir="$pkgdir/usr/bin"
+    mkdir "$destdir" -p
+    cp "$srcdir/$pkgname" "$destdir"
+
+    configdir="$pkgdir/etc/"
+    mkdir "$configdir" -p
+    cp "$startdir/default-config.json" "$configdir/${pkgname}.json"
+}

@@ -1,0 +1,13 @@
+[Unit]
+Description=kkkustoms service
+After=network.target
+
+[Service]
+Type=simple
+User=http
+Group=http
+ExecStart=/usr/bin/kkkustoms
+Restart=always
+
+[Install]
+WantedBy=multi-user.target

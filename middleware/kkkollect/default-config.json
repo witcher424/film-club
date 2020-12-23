@@ -1,0 +1,4 @@
+{
+    "DbUrl":   "",
+    "LogFile": "/var/log/kkkcollect.log"
+}
