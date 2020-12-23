@@ -1,6 +1,6 @@
 [Unit]
 Description=kkkustoms service
-After=network.target
+After=postgresql.service
 
 [Service]
 Type=simple
