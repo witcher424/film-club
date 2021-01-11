@@ -1,0 +1,10 @@
+﻿  knn.cpp
+F:\pd\knn\knn.cpp(15,26): warning C4018: <: несоответствие типов со знаком и без знака
+F:\pd\knn\knn.cpp(16,30): warning C4018: <: несоответствие типов со знаком и без знака
+F:\pd\knn\knn.cpp(28,26): warning C4018: <: несоответствие типов со знаком и без знака
+F:\pd\knn\knn.cpp(39,19): warning C4244: =: преобразование "_Ty" в "size_t", возможна потеря данных
+          with
+          [
+              _Ty=double
+          ]
+  knn.vcxproj -> F:\pd\knn\Debug\knn.exe
